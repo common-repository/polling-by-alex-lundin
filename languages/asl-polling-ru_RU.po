@@ -1,0 +1,387 @@
+# Copyright (C) 2022 Alex Lundin
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Polling by Alex Lundin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/asl-polling\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-15T09:39:01+02:00\n"
+"PO-Revision-Date: 2022-06-15 10:49+0300\n"
+"X-Generator: Poedit 2.2\n"
+"X-Domain: asl-polling\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#. Plugin Name of the plugin
+msgid "WP Polling by Alex Lundin"
+msgstr "WP Polling by Alex Lundin"
+
+#. Plugin URI of the plugin
+msgid "https://alexlundin.com"
+msgstr "https://alexlundin.com"
+
+#. Description of the plugin
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+
+#. Author of the plugin
+msgid "Alex Lundin"
+msgstr "Александр Лундин"
+
+#. Author URI of the plugin
+msgid "https://vk.com/aslundin"
+msgstr "https://vk.com/aslundin"
+
+#: admin/class-asl-polling-admin.php:76 admin/class-asl-polling-admin.php:87
+#: admin/class-asl-polling-admin.php:89 admin/class-asl-polling-admin.php:114
+msgid "Polling"
+msgstr "Опросы"
+
+#: admin/class-asl-polling-admin.php:88
+msgid "Poll"
+msgstr "Опрос"
+
+#: admin/class-asl-polling-admin.php:90
+msgid "Add Poll"
+msgstr "Добавить опрос"
+
+#: admin/class-asl-polling-admin.php:91
+msgid "Add New Poll"
+msgstr "Добавить новый опрос"
+
+#: admin/class-asl-polling-admin.php:92 admin/assets/prod/js/admin.js:26815
+#: admin/assets/src/components/PollTable.jsx:95
+msgid "Edit"
+msgstr "Редактировать"
+
+#: admin/class-asl-polling-admin.php:93
+msgid "Edit Poll"
+msgstr "Редактировать опрос"
+
+#: admin/class-asl-polling-admin.php:94
+msgid "New Poll"
+msgstr "Новый опрос"
+
+#: admin/class-asl-polling-admin.php:95 admin/class-asl-polling-admin.php:96
+msgid "View Poll"
+msgstr "Посмотреть опрос"
+
+#: admin/class-asl-polling-admin.php:97
+msgid "Search Poll"
+msgstr "Найти опрос"
+
+#: admin/class-asl-polling-admin.php:98
+msgid "No Poll Found"
+msgstr "Опрос не существует"
+
+#: admin/class-asl-polling-admin.php:99
+msgid "No Poll Found in Trash"
+msgstr "Опрос не существует в корзине"
+
+#: admin/class-asl-polling-admin.php:100
+msgid "Parent Poll"
+msgstr "Родительский опрос"
+
+#: admin/class-asl-polling-admin.php:127
+msgid "Polls"
+msgstr "Опросы"
+
+#: admin/class-asl-polling-admin.php:135
+msgid "Import"
+msgstr "Импорт"
+
+#: admin/class-asl-polling-admin.php:143
+msgid "Tools"
+msgstr "Утилиты"
+
+#: admin/class-asl-polling-admin.php:153
+msgid "Help"
+msgstr "Помощь"
+
+#: admin/assets/prod/js/admin.js:26027 admin/assets/prod/js/admin.js:26853
+#: admin/assets/src/App.jsx:12 admin/assets/src/components/PollTable.jsx:128
+#, fuzzy
+msgid "All Polls"
+msgstr "Опросы"
+
+#: admin/assets/prod/js/admin.js:26032 admin/assets/src/App.jsx:16
+msgid "Tools and Settings"
+msgstr "Утилиты и настройки"
+
+#: admin/assets/prod/js/admin.js:26037 admin/assets/src/App.jsx:20
+msgid "Help and Documentation"
+msgstr "Помощь и документация"
+
+#: admin/assets/prod/js/admin.js:26201
+#: admin/assets/src/components/CreatePoll.jsx:35
+msgid "Add poll success"
+msgstr "Опрос добавлен"
+
+#: admin/assets/prod/js/admin.js:26231
+#: admin/assets/src/components/CreatePoll.jsx:67
+msgid "Create a New Poll"
+msgstr "Создать новый опрос"
+
+#: admin/assets/prod/js/admin.js:26240 admin/assets/prod/js/admin.js:26519
+#: admin/assets/src/components/CreatePoll.jsx:83
+#: admin/assets/src/components/EditPoll.jsx:87
+msgid "Description poll"
+msgstr "Описание опроса"
+
+#: admin/assets/prod/js/admin.js:26243 admin/assets/prod/js/admin.js:26522
+#: admin/assets/src/components/CreatePoll.jsx:89
+#: admin/assets/src/components/EditPoll.jsx:93
+msgid "Poll name"
+msgstr "Название опроса"
+
+#: admin/assets/prod/js/admin.js:26248 admin/assets/prod/js/admin.js:26526
+#: admin/assets/src/components/CreatePoll.jsx:92
+#: admin/assets/src/components/EditPoll.jsx:97
+msgid "Please input poll name!"
+msgstr "Пожалуйста, введите имя опроса!"
+
+#: admin/assets/prod/js/admin.js:26251 admin/assets/prod/js/admin.js:26529
+#: admin/assets/prod/js/admin.js:26777
+#: admin/assets/src/components/CreatePoll.jsx:97
+#: admin/assets/src/components/EditPoll.jsx:103
+#: admin/assets/src/components/PollTable.jsx:58
+msgid "Description"
+msgstr "Описание"
+
+#: admin/assets/prod/js/admin.js:26256 admin/assets/prod/js/admin.js:26536
+#: admin/assets/src/components/CreatePoll.jsx:109
+#: admin/assets/src/components/EditPoll.jsx:114
+msgid "Pluses"
+msgstr "Преимущества"
+
+#: admin/assets/prod/js/admin.js:26259 admin/assets/prod/js/admin.js:26539
+#: admin/assets/src/components/CreatePoll.jsx:114
+#: admin/assets/src/components/EditPoll.jsx:119
+msgid "Heading pluses"
+msgstr "Заголовок преимуществ"
+
+#: admin/assets/prod/js/admin.js:26261 admin/assets/prod/js/admin.js:26541
+#: admin/assets/src/components/CreatePoll.jsx:116
+#: admin/assets/src/components/EditPoll.jsx:121
+msgid "Advantages"
+msgstr "Преимущества"
+
+#: admin/assets/prod/js/admin.js:26281 admin/assets/prod/js/admin.js:26561
+#: admin/assets/src/components/CreatePoll.jsx:130
+#: admin/assets/src/components/EditPoll.jsx:135
+msgid "Text plus"
+msgstr "Текст преимущества"
+
+#: admin/assets/prod/js/admin.js:26285 admin/assets/prod/js/admin.js:26343
+#: admin/assets/prod/js/admin.js:26565 admin/assets/prod/js/admin.js:26625
+#: admin/assets/src/components/CreatePoll.jsx:138
+#: admin/assets/src/components/CreatePoll.jsx:206
+#: admin/assets/src/components/EditPoll.jsx:143
+#: admin/assets/src/components/EditPoll.jsx:210
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: admin/assets/prod/js/admin.js:26292 admin/assets/prod/js/admin.js:26350
+#: admin/assets/prod/js/admin.js:26572 admin/assets/prod/js/admin.js:26632
+#: admin/assets/src/components/CreatePoll.jsx:149
+#: admin/assets/src/components/CreatePoll.jsx:218
+#: admin/assets/src/components/EditPoll.jsx:154
+#: admin/assets/src/components/EditPoll.jsx:221
+msgid "Publish"
+msgstr "Опубликован"
+
+#: admin/assets/prod/js/admin.js:26311 admin/assets/prod/js/admin.js:26369
+#: admin/assets/prod/js/admin.js:26590 admin/assets/prod/js/admin.js:26650
+#: admin/assets/src/components/CreatePoll.jsx:165
+#: admin/assets/src/components/CreatePoll.jsx:234
+#: admin/assets/src/components/EditPoll.jsx:169
+#: admin/assets/src/components/EditPoll.jsx:237
+msgid "Add variant"
+msgstr "Добавить вариант"
+
+#: admin/assets/prod/js/admin.js:26314 admin/assets/prod/js/admin.js:26596
+#: admin/assets/src/components/CreatePoll.jsx:177
+#: admin/assets/src/components/EditPoll.jsx:181
+msgid "Minuses"
+msgstr "Недостатки"
+
+#: admin/assets/prod/js/admin.js:26317 admin/assets/prod/js/admin.js:26599
+#: admin/assets/src/components/CreatePoll.jsx:182
+#: admin/assets/src/components/EditPoll.jsx:186
+msgid "Heading minuses"
+msgstr "Заголовок недоастаков"
+
+#: admin/assets/prod/js/admin.js:26319 admin/assets/prod/js/admin.js:26601
+#: admin/assets/src/components/CreatePoll.jsx:184
+#: admin/assets/src/components/EditPoll.jsx:188
+msgid "Disadvantages"
+msgstr "НЕдостатки"
+
+#: admin/assets/prod/js/admin.js:26339 admin/assets/prod/js/admin.js:26621
+#: admin/assets/src/components/CreatePoll.jsx:198
+#: admin/assets/src/components/EditPoll.jsx:202
+msgid "Text minus"
+msgstr "Текст недостатка"
+
+#: admin/assets/prod/js/admin.js:26374 admin/assets/prod/js/admin.js:26655
+#: admin/assets/src/components/CreatePoll.jsx:247
+#: admin/assets/src/components/EditPoll.jsx:250
+msgid "Submit"
+msgstr "Отправить"
+
+#: admin/assets/prod/js/admin.js:26379 admin/assets/prod/js/admin.js:26660
+#: admin/assets/src/components/CreatePoll.jsx:252
+#: admin/assets/src/components/EditPoll.jsx:255
+msgid "Reset"
+msgstr "Сбросить"
+
+#: admin/assets/prod/js/admin.js:26488
+#: admin/assets/src/components/EditPoll.jsx:43
+msgid "Update poll success"
+msgstr "Опрос успешно обновлен"
+
+#: admin/assets/prod/js/admin.js:26506
+#: admin/assets/src/components/EditPoll.jsx:63
+#, fuzzy
+msgid "Edit a poll"
+msgstr "Редактировать опрос"
+
+#: admin/assets/prod/js/admin.js:26718
+#: admin/assets/src/components/PollTable.jsx:17
+msgid "Are you sure, You want to delete this poll?"
+msgstr "Вы уверены, что хотите удалить опрос?"
+
+#: admin/assets/prod/js/admin.js:26720
+#: admin/assets/src/components/PollTable.jsx:19
+msgid "Yes, delete"
+msgstr "Да, удалить"
+
+#: admin/assets/prod/js/admin.js:26722
+#: admin/assets/src/components/PollTable.jsx:21
+msgid "Cancel"
+msgstr "Отменить"
+
+#: admin/assets/prod/js/admin.js:26726
+#: admin/assets/src/components/PollTable.jsx:25
+msgid "Successfully deleted the poll."
+msgstr "Опрос успешно удален."
+
+#: admin/assets/prod/js/admin.js:26734
+#: admin/assets/src/components/PollTable.jsx:32
+msgid "Delete canceled"
+msgstr "Удаление отменено"
+
+#: admin/assets/prod/js/admin.js:26759
+#: admin/assets/src/components/PollTable.jsx:48
+msgid "Title"
+msgstr "Название"
+
+#: admin/assets/prod/js/admin.js:26781
+#: admin/assets/src/components/PollTable.jsx:61
+msgid "Count variants under moderation"
+msgstr "Количество вариантов на модерации"
+
+#: admin/assets/prod/js/admin.js:26788
+#: admin/assets/src/components/PollTable.jsx:65
+msgid "No items on moderation"
+msgstr "Нет элементов на модерации"
+
+#: admin/assets/prod/js/admin.js:26794
+#: admin/assets/src/components/PollTable.jsx:71
+msgid "Pluses: "
+msgstr "Плюсы:"
+
+#: admin/assets/prod/js/admin.js:26801
+#: admin/assets/src/components/PollTable.jsx:80
+msgid "Minuses: "
+msgstr "Минусы:"
+
+#: admin/assets/prod/js/admin.js:26807
+#: admin/assets/src/components/PollTable.jsx:93
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/assets/prod/js/admin.js:26823
+#: admin/assets/src/components/PollTable.jsx:103
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/assets/prod/js/admin.js:26861
+#: admin/assets/src/components/PollTable.jsx:137
+#, fuzzy
+msgid "Add a Poll"
+msgstr "Добавить новый опрос"
+
+#: admin/assets/prod/js/admin.js:26905
+#: admin/assets/src/components/Welcome.jsx:15
+msgid "Welcome to WP Pools"
+msgstr "Добро пожаловать в WP Polls"
+
+#: admin/assets/prod/js/admin.js:26905
+#: admin/assets/src/components/Welcome.jsx:16
+msgid "Thank you for installing WP Pools"
+msgstr "Спасибо, что установили плагин WP Polls"
+
+#: admin/assets/prod/js/admin.js:26911
+#: admin/assets/src/components/Welcome.jsx:19
+msgid "Create a New Pool"
+msgstr "Создать новый опрос"
+
+#: admin/assets/prod/js/admin.js:26945 admin/assets/prod/js/admin.js:27098
+#: admin/assets/src/pages/HelpPage.jsx:15
+#: admin/assets/src/pages/ToolsPage.jsx:15
+msgid "This page will be available soon"
+msgstr "Эта страница будет доступна в ближайшее время"
+
+#: admin/assets/prod/js/admin.js:27026
+#: admin/assets/src/pages/NotFoundPage.jsx:18
+msgid "This page not found"
+msgstr "Этой страницы не существует"
+
+#: admin/assets/prod/js/admin.js:27032
+#: admin/assets/src/pages/NotFoundPage.jsx:23
+msgid "Back to Main page"
+msgstr "Вернуться на главную страницу"
+
+#: public/block/src/asl-poll-block.js:8
+msgid "WP Polls"
+msgstr "WP Polls"
+
+#: public/block/src/asl-poll-block.js:42 public/block/src/asl-poll-block.js:48
+msgid "No Polls found. Please add a poll first"
+msgstr "Опросов не существует. Пожалуйста добавьте опрос"
+
+#: public/block/src/asl-poll-block.js:57
+msgid "Select a poll"
+msgstr "Выберите опрос"
+
+#: public/js/src/App.jsx:62
+#, fuzzy
+msgid "Add advantage"
+msgstr "Добавить новый опрос"
+
+#: public/js/src/App.jsx:79
+#, fuzzy
+msgid "Add disadvantages"
+msgstr "Добавить новый опрос"
+
+#: public/js/src/components/Form.jsx:18
+msgid "Your review has been accepted and will be published after moderation"
+msgstr "Ваш отзыв принят и будет опубликован после модерации"
+
+#: public/js/src/components/Form.jsx:38
+msgid "Send"
+msgstr "Отправить"
+
+#: public/js/src/components/VariantItem.jsx:41
+msgid "thinking"
+msgstr "считают"
